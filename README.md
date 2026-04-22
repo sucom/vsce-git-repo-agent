@@ -6,7 +6,7 @@
 
 Frictionless, one-click GitHub repository setup with user control automation. Designed for educators, bootcamp hosts, and workshop trainers who need to distribute code instantly.
 
-Git Repo Agent eliminates the administrative friction of creating repositories and inviting dozens of students manually. Just drop a text file with their GitHub usernames, click one button, and start teaching.
+GitHub Repo Agent eliminates the administrative friction of creating repositories and inviting dozens of students manually. Just drop a text file with their GitHub usernames, click one button, and start teaching.
 
 #### Other related extensions
 
@@ -20,10 +20,10 @@ Git Repo Agent eliminates the administrative friction of creating repositories a
 
 ## ⚡ Quick Start
 
-1. **Install** Git Repo Agent from the VS Code Marketplace.
+1. **Install** GitHub Repo Agent from the VS Code Marketplace.
 2. **Create** a `.vscode/repo-users.txt` file in your project folder.
 3. **Add** student GitHub usernames (one per line).
-4. **Click** the `Git Repo Agent` status bar icon and select **Setup / Update Repository**.
+4. **Click** the `GitHub Repo Agent` status bar icon and select **Setup / Update Repository**.
 5. **Enter** your Profile details (first time only) and select HTTPS or SSH handoff.
 
 ## 🚀 Installation
@@ -65,7 +65,7 @@ student-handle-2 # Inline comments are ignored
 
 
 ## 🔐 Authentication & Setup Guide
-Because Git Repo Agent interacts with the GitHub REST API to create repositories and manage users, it requires a Personal Access Token (PAT).
+Because GitHub Repo Agent interacts with the GitHub REST API to create repositories and manage users, it requires a Personal Access Token (PAT).
 
 ### 1. Generating the Right PAT (GitHub)
 
@@ -98,7 +98,7 @@ Once the repository is created via this extension, it asks how you want to push 
 
 2. Free Organizations do support granular permissions.
 
-3. When using Git Repo Agent, use the Organization's name as the "GitHub Username" in your active profile.
+3. When using GitHub Repo Agent, use the Organization's name as the "GitHub Username" in your active profile.
 
 4. The extension automatically sends a pull (Read-Only) permission request, which the Organization will respect, perfectly securing your workshop code!
 
